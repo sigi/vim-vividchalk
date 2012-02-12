@@ -110,7 +110,8 @@ highlight StatusLineNC  guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black cterm
 
 highlight Ignore        ctermfg=Black
 highlight WildMenu      guifg=Black   guibg=#ffff00 gui=bold ctermfg=Black ctermbg=Yellow cterm=bold
-highlight Cursor        guifg=Black guibg=White ctermfg=Black ctermbg=White
+highlight Cursor        guifg=Black guibg=Red ctermfg=Black ctermbg=White
+highlight iCursor       ctermbg=White ctermfg=Black
 highlight CursorLine    guibg=#333333 guifg=NONE
 highlight CursorColumn  guibg=#333333 guifg=NONE
 highlight ColorColumn   guibg=#333333 guifg=NONE
